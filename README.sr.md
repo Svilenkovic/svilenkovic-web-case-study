@@ -2,7 +2,7 @@
 
 Web prodavnice i B2B katalozi.
 
-**[svilenkovicweb.com](https://svilenkovicweb.com/)** · [English](README.md)
+**[svilenkovicweb.com](https://svilenkovicweb.com/)** · [Studija: Jupiter Planet](https://svilenkovicweb.com/studije/jupiter-planet-konfigurator/) · [English](README.md)
 
 > [!NOTE]
 > Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
@@ -10,7 +10,7 @@ Web prodavnice i B2B katalozi.
 <table>
   <tr><td><b>Vrsta</b></td><td>Web prodavnice i B2B katalozi</td></tr>
   <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>16 canonical stranica</td></tr>
+  <tr><td><b>Javne rute</b></td><td>18 canonical stranica</td></tr>
   <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
   <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
