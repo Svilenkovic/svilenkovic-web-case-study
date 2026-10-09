@@ -1,42 +1,58 @@
+<a href="https://svilenkovicweb.com/"><img src="media/cover.jpg" alt="Svilenković Web, naslovna strana na laptopu i telefonu" width="100%"></a>
+
 # Svilenković Web
 
-Web prodavnice i B2B katalozi.
+Sajt o web prodavnicama i B2B katalozima koji pokazuje kako se interfejs menja prema načinu na koji kupac odlučuje.
 
-**[svilenkovicweb.com](https://svilenkovicweb.com/)** · [Studija: Jupiter Planet](https://svilenkovicweb.com/studije/jupiter-planet-konfigurator/) · [English](README.md)
+**[svilenkovicweb.com](https://svilenkovicweb.com/)** · [Studija slučaja](https://svilenkovic.rs/radovi/svilenkovic-web) · [English](README.md)
 
 > [!NOTE]
-> Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
+> Moj sopstveni projekat, ne klijentski posao. Izvorni kod je privatan. Ova stranica opisuje šta sajt radi i kako je napravljen.
 
 <table>
-  <tr><td><b>Vrsta</b></td><td>Web prodavnice i B2B katalozi</td></tr>
-  <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>18 canonical stranica</td></tr>
-  <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
-  <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Klijent</b></td><td>Sopstveni projekat</td></tr>
+  <tr><td><b>Delatnost</b></td><td>Web prodavnice i B2B katalozi</td></tr>
+  <tr><td><b>Lokacija</b></td><td>Srbija</td></tr>
+  <tr><td><b>Vrsta</b></td><td>Sajt sa više strana</td></tr>
+  <tr><td><b>Moj deo posla</b></td><td>Istraživanje, dizajn, izrada, SEO i hosting</td></tr>
+  <tr><td><b>Tehnologije</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Namena
+## O projektu
 
-Korisna prodavnica počinje od podataka o proizvodu i načina na koji kupci kupuju. Projekat razdvaja direktnu naplatu, upite za ponudu i B2B kataloge, pa pokazuje kako jedan proizvod prolazi kroz te puteve.
+Kupovina nije uvek korpa. Nekome treba izbor varijante, nekome jasan katalog, a nekome razgovor o ponudi. Svilenković Web razdvaja direktnu kupovinu, upit za ponudu i B2B katalog i pokazuje kako jedan proizvod prolazi kroz svaki od tih puteva.
 
-## Dizajn pravac
+Uvodna scena dok se skroluje pretvara predmet u karticu proizvoda, pa u ponudu, ali kartice i tekst stoje u običnom HTML-u. Strana Radovi poredi tri načina prodaje kroz projekte koje sam javno dokumentovao (konfigurator, katalog i tok upita), bez pripisivanja konverzija koje niko nije izmerio.
 
-Hromatski prodajni paviljon pretvara predmet u karticu proizvoda, izbor i ponudu. Bela površina, koral i akva čuvaju vedar pokret bez otežanog pregleda kataloga.
+## Šta sam uradio
 
-## Šta je urađeno
+- Posebna objašnjenja za kupovinu preko korpe, upit i B2B katalog
+- Podaci o proizvodu, varijante i zalihe kao polazna tačka dizajna
+- Scena uz skrol koja prati jedan artikal od predmeta do ponude
+- Strana Radovi koja svaki prodajni problem vezuje za dokumentovan projekat, među njima i konfigurator za Jupiter Planet
+- Raspored proveren do uskih ekrana telefona
 
-- Odvojena objašnjenja za naplatu, upit i B2B katalog
-- Podaci o proizvodu, varijante i stanje kao ulazi u dizajn
-- Skrol scena koja prati jedan predmet kroz kupovni put
-- Responsive rasporedi provereni do uskih širina telefona
-- Bez izmišljenih prihoda, konverzija ili broja kupaca
+## Merenja
 
-## Provere izdanja
+| | Performanse | Pristupačnost | Dobre prakse | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Telefon | 100 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-Svaka canonical ruta proverena je na širinama 390, 768, 1440 i 1920 px. Izdanje je provereno i bez JavaScript-a i uz reduced-motion postavku. Žive provere obuhvatile su HTTPS, preusmerenja, zaglavlja odgovora, strukturirane podatke, sitemap fajlove, zaštićene putanje i neispravne kontakt zahteve bez slanja test poruka.
+PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosna zaglavlja: 6 od 6. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `Organization`, `Person`.
 
-Ovo su inženjerske provere, a ne tvrdnje o poziciji u pretrazi ili terenskim performansama.
+## Snimci ekrana
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="Svilenković Web, naslovna strana na ekranu širine 1440 px"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="Svilenković Web, naslovna strana na telefonu"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Radovi: tri prodajna problema i projekti iza njih">
+<sub>Radovi: tri prodajna problema i projekti iza njih</sub>
 
 ---
 
-<sub>Dizajn i izrada: [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Izrada: [D. Svilenković](https://svilenkovic.rs).</sub>
